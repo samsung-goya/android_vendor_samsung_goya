@@ -1,4 +1,4 @@
-#Graphic & Display
+# Graphics & Display
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.mrvl.so.backup:system/lib/hw/hwcomposer.mrvl.so.backup \
@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so 
 
-# some stuff
+# Unknown
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/load_prod_8787.sh:system/bin/load_prod_8787.sh \
 	$(LOCAL_PATH)/proprietary/system/bin/load_mfg_8787.sh:system/bin/load_mfg_8787.sh \
@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/firmware/mrvl/SDIO8777_SDIO_SDIO.bin:system/etc/firmware/mrvl/SDIO8777_SDIO_SDIO.bin \
 	$(LOCAL_PATH)/proprietary/system/etc/firmware/mrvl/WlanCalData_ext.conf:system/etc/firmware/mrvl/WlanCalData_ext.conf
 
-#Tel
+# Tel
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/tel/goldenve/COMCfg.csv:system/etc/tel/goldenve/COMCfg.csv \
 	$(LOCAL_PATH)/proprietary/system/etc/tel/kunlun/LyraConfig_T7.nvm:system/etc/tel/kunlum/LyraConfig_T7.nvm \
@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/sensor/sensord_cfg_axis:system/etc/sensor/sensord_cfg_axis  \
 	$(LOCAL_PATH)/proprietary/system/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so
 
-# camera
+# Camera
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcameraengine.so:system/lib/libcameraengine.so \
@@ -185,7 +185,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
 	$(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
-#alsa-lib
+# alsa-lib
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/usr/lib/alsa-lib/libasound_module_ctl_codec.so:system/usr/lib/alsa-lib/libasound_module_ctl_codec.so \
 	$(LOCAL_PATH)/proprietary/system/usr/lib/alsa-lib/libasound_module_ctl_phone.so:system/usr/lib/alsa-lib/libasound_module_ctl_phone.so \

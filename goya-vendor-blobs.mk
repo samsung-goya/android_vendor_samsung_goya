@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libgputex.so:system/lib/libgputex.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgcu.so:system/lib/libgcu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
+#	$(LOCAL_PATH)/proprietary/system/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so 
 
 # Unknown
@@ -215,5 +215,3 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt
-
-
